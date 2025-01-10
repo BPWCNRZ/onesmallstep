@@ -10,5 +10,17 @@ int main() {
     double b;
     double c;
 
+    std::cout<<"Hypotenuse Calculator\n"<<"By BPW\n";
+    std::cout<<"Enter the length of side a \n";
+    std::cin>>a;
+    std::cout<<"Enter the length of side b\n";
+    std::cin>>b;
+
+    a = sqrt(a);
+    b = sqrt(b);
+
+    c = a + b;
+
+    c = sqrt(c);
     
 }
