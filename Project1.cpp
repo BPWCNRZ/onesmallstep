@@ -16,11 +16,12 @@ int main() {
     std::cout<<"Enter the length of side b\n";
     std::cin>>b;
 
-    a = sqrt(a);
-    b = sqrt(b);
+    a = pow(a,2);
+    b = pow(b,2);
 
     c = a + b;
 
     c = sqrt(c);
-      
+    
+    std::cout<< " The length of the hypotensue is \n"<<c;
 }
